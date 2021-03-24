@@ -1,0 +1,108 @@
+#Gallery-container {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-bottom: 0;
+	height: 500px;
+	background-image: url("contact-img.jpg");
+}
+.extra-styling {
+	font-size: 1.4rem;
+	color: white;
+	opacity: 0.6;
+	line-height: 130%;
+	text-align: center;
+	position: relative;
+	top: 50px;
+}
+.description-in-form {
+	font-size: 0.8rem;
+	color: white;
+	opacity: 1;
+	line-height: 130%;
+}
+.contact-form-container-main {
+	border: 1px solid white;
+	width: 80%;
+	position: relative;
+	left: 10%;
+}
+.contact-info-container {
+	margin-top: 40px;
+	width: 80%;
+	position: relative;
+	left: 10%;
+}
+.contact-form-title {
+	margin: 30px;
+	text-align: center;
+	font-weight: 700;
+}
+.contact-form-container {
+	margin: 30px;
+}
+.input-form {
+	width: 100%;
+	height: 3.5rem;
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+	font-weight: 700;
+}
+.textarea-form {
+	width: 100%;
+	margin-bottom: 20px;
+	font-size: 1.4rem;
+	font-weight: 700;
+}
+.button-form {
+	color: white;
+	width: 100%;
+	line-height: 200%;
+	background-color: #513438;
+}
+.title-contact-info {
+	color: white;
+	text-align: center;
+	font-size: 0.9rem;
+	margin-bottom: 15px;
+}
+.content-contact-info {
+	font-size: 1.2rem;
+	color: white;
+	opacity: 0.6;
+	line-height: 170%;
+	margin-bottom: 15px;
+}
+@media only screen and (min-width: 679px) {
+	#Gallery-container {
+		height: 0;
+		padding-bottom: 65%;
+		margin: 0 auto 40px auto;
+		width: 100%;
+		position: relative;
+	}
+	.input-form {
+		height: 3.5rem;
+		font-size: 2.5rem;
+	}
+	.button-form {
+		line-height: 100%;
+		height: 3.5rem;
+		font-size: 2rem;
+	}
+	.title-contact-info {
+		font-size: 1.9rem;
+	}
+	.content-contact-info {
+		font-size: 1.7rem;
+	}
+	.textarea-form {
+		font-size: 2rem;
+		font-weight: 800;
+	}
+	.description-in-form {
+		font-size: 1.3rem;
+
+		opacity: 0.6;
+	}
+}

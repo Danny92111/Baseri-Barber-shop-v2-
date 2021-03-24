@@ -1,0 +1,55 @@
+@media only screen and (max-width: 450px) {
+	#Title-container img {
+		width: 105px;
+	}
+	#Logo-title-container {
+		width: 30px;
+
+		margin-right: 20px;
+	}
+	#Services-title {
+		font-size: 2rem;
+	}
+	.max-lines {
+		font-size: 1.4rem;
+	}
+	.Read-more-link {
+		letter-spacing: 1px;
+	}
+	.description-service-treatment-time {
+		font-size: 1.4rem;
+	}
+	.Price-of-service {
+		font-size: 1.5rem;
+	}
+	.Title-small {
+		font-size: 1.2rem;
+	}
+	.Individual-container-picture div {
+		height: 150px;
+	}
+	#Contact-us-title {
+		font-size: 2rem;
+	}
+	#About-us-info {
+		font-size: 1.2rem;
+		line-height: 160%;
+	}
+	#Insta-title-cont {
+		font-size: 2rem;
+	}
+	#Strip-container img {
+		width: 25px;
+		height: 25px;
+	}
+	.title-in-socialCont {
+		height: 100px;
+	}
+	#Copyright-info {
+		font-size: 1rem;
+	}
+	#Copyright-icon {
+		width: 20px;
+		height: 20px;
+	}
+}

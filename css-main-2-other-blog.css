@@ -1,0 +1,136 @@
+#Gallery-container {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-bottom: 0;
+	height: 400px;
+	background-image: url("Picture-main-blog.jpg");
+}
+.extra-styling {
+	font-size: 1.4rem;
+	color: white;
+	opacity: 0.6;
+	line-height: 130%;
+	text-align: center;
+	position: relative;
+	top: 50px;
+}
+/* Blog specifics */
+.blog-title {
+	font-weight: 700;
+	text-align: center;
+	margin: 0 20px;
+	color: white;
+	padding-top: 10px;
+}
+.blog-container {
+	width: 500px;
+	margin: 50px auto;
+}
+.post1 {
+	background-image: url("Blogassets/blog 1.jpg");
+}
+.post2 {
+	background-image: url("Blogassets/blog 2.jpg");
+}
+.post3 {
+	background-image: url("Blogassets/blog 3.jpg");
+}
+.post4 {
+	background-image: url("Blogassets/blog 4.jpg");
+}
+.post5 {
+	background-image: url("Blogassets/blog 5.jpg");
+}
+.img-blog {
+	width: 100%;
+	height: 300px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 30px;
+}
+.content-blog {
+}
+.title-blog {
+	margin: 0 0 30px 50px;
+}
+.description-blog {
+	font-size: 1.4rem;
+	color: white;
+	opacity: 0.6;
+	line-height: 150%;
+	margin: 0 20px 10px 50px;
+}
+.date-blog {
+	font-size: 1.2rem;
+	color: white;
+	opacity: 0.6;
+	margin: 0 0 70px 50px;
+}
+.clickable {
+	cursor: pointer;
+}
+.single-post-style {
+	margin: 0 0 10px 50px;
+}
+.fix-height-single-post {
+	margin: 110px auto;
+}
+.link-to-post {
+	text-decoration: none;
+}
+
+@media only screen and (min-width: 679px) {
+	#Gallery-container {
+		height: 0;
+		padding-bottom: 50%;
+		margin: 0 auto 0 auto;
+		width: 100%;
+		position: relative;
+	}
+	.blog-container {
+		width: 700px;
+	}
+	.img-blog {
+		height: 500px;
+	}
+}
+@media only screen and (min-width: 1100px) {
+	.blog-container {
+		width: 900px;
+	}
+	.img-blog {
+		height: 700px;
+	}
+	.title-blog {
+		font-size: 3.5rem;
+	}
+	.description-blog {
+		font-size: 2rem;
+
+		line-height: 170%;
+	}
+	.date-blog {
+		font-size: 1.6rem;
+	}
+	.blog-title {
+		font-size: 5rem;
+	}
+}
+@media only screen and (max-width: 488px) {
+	.img-blog {
+		background-size: cover;
+
+		height: 200px;
+	}
+	.description-blog {
+		margin: 0 0 10px 15px;
+	}
+	.title-blog {
+		margin: 0 0 10px 15px;
+	}
+	.date-blog {
+		margin: 0 0 10px 15px;
+	}
+}

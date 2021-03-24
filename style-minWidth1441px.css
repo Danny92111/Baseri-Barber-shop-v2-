@@ -1,0 +1,34 @@
+@media only screen and (min-width: 1441px) {
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		font-size: 62.5%;
+	}
+	body {
+		background-color: #353c3b;
+		overflow-x: hidden;
+		width: 70%;
+		position: relative;
+		left: 15%;
+	}
+	html {
+		scroll-behavior: smooth;
+		overflow-x: hidden;
+	}
+
+	#Toggle-menu {
+		width: 70vw;
+
+		left: 15vw;
+	}
+	#Title-container {
+		left: 15vw;
+	}
+	#Gallery-container .booksy-widget-container-dialog {
+		right: 15vw;
+	}
+	.Individual-container-picture div {
+		height: 251px;
+	}
+}
